@@ -1,8 +1,7 @@
 # STEP 1 & 2: Load CSV, inspect, preprocess (Label Encoding, Scaling), and apply SMOTE
 
 # Upload
-from google.colab import files
-uploaded = files.upload()
+df = pd.read_csv("your_dataset.csv")
 
 # Load libraries
 import pandas as pd
